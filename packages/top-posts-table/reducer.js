@@ -22,6 +22,7 @@ export default (state = initialState, action) => {
     case `top_posts_${asyncDataFetchActionTypes.FETCH_START}`:
       return {
         ...initialState,
+        topPosts: state.topPosts,
         activePostsCount: state.activePostsCount,
         selectedMetric: state.selectedMetric,
         isDescendingSelected: state.isDescendingSelected,
