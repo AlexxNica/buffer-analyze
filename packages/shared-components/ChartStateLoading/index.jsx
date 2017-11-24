@@ -25,6 +25,7 @@ const Loading = ({ text, maxHeight, noBorder }) => {
     minHeight: '8rem',
     transition: 'opacity 350ms ease-in-out',
     maxHeight: maxHeight || 'none',
+    height: '100%',
   };
 
   return (

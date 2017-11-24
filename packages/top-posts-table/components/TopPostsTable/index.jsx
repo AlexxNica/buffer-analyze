@@ -33,6 +33,14 @@ const gridContainer = {
   padding: '1.5rem',
 };
 
+const loaderWrapper = {
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  right: 0,
+  bottom: 0,
+};
+
 const defaultSortMetrics = {
   facebook: {
     key: 'post_impressions',
@@ -61,13 +69,14 @@ function getMaxMetricValue(posts, metrics) {
   return max;
 }
 
-export const Table = ({ metrics, timezone, service }) => {
+export const Table = ({ metrics, timezone, service, loading }) => {
   const topPosts = metrics;
   const engagementMetrics = metricsConfig[service].topPostsEngagementMetrics;
   const audienceMetrics = metricsConfig[service].topPostsAudienceMetrics;
 
   const maxEngagementValue = getMaxMetricValue(topPosts, engagementMetrics);
   const maxAudienceValue = getMaxMetricValue(topPosts, audienceMetrics);
+
 
   return (
     <aside className={chartContainer}>
@@ -97,11 +106,17 @@ export const Table = ({ metrics, timezone, service }) => {
           />,
         )}
       </ul>
+      {loading && <div style={loaderWrapper}><Loading active noBorder /></div>}
     </aside>
   );
 };
 
+Table.defaultProps = {
+  loading: false,
+};
+
 Table.propTypes = {
+  loading: PropTypes.bool,
   timezone: PropTypes.string.isRequired,
   service: PropTypes.string.isRequired,
   metrics: PropTypes.arrayOf(PropTypes.shape({
@@ -144,7 +159,7 @@ const TopPostsTable = (props) => {
     defaultSortMetrics[profileService] : selectedMetric;
 
   let content = null;
-  if (loading) {
+  if (loading && topPosts.length === 0) {
     content = <Loading active noBorder />;
   } else if (topPosts.length === 0) {
     content = <NoData />;
@@ -165,6 +180,7 @@ const TopPostsTable = (props) => {
           metrics={metrics}
           timezone={timezone}
           service={profileService}
+          loading={loading}
         />
       </div>
     );

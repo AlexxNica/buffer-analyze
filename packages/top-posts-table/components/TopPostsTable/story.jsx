@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { ReportsStore } from '@bufferapp/analyze-decorators';
 import { checkA11y } from 'storybook-addon-a11y';
 import { action } from '@storybook/addon-actions';
 import TopPostsTable from './index';
@@ -71,6 +72,7 @@ const topPosts = [
 
 storiesOf('TopPostsTable')
   .addDecorator(checkA11y)
+  .addDecorator(ReportsStore)
   .add('should render the top posts table', () => (
     <div
       style={{
@@ -145,6 +147,29 @@ storiesOf('TopPostsTable')
         timezone={'America/Los_Angeles'}
         profileService={'facebook'}
         metrics={[]}
+        selectMetric={action('selectMetric')}
+        selectedMetric={{
+          key: 'post_impressions',
+          label: 'Post Impressions',
+        }}
+        toggleDropdown={action('toggleDropdown')}
+        isDescendingSelected
+        handlePostsCountClick={action('handlePostsCountClick')}
+        activePostsCount={10}
+      />
+    </div>
+  ))
+  .add('a loading state with posts loaded already would be displayed on top of the current posts', () => (
+    <div
+      style={{
+        width: '750px',
+      }}
+    >
+      <TopPostsTable
+        timezone={'America/Los_Angeles'}
+        profileService={'facebook'}
+        metrics={topPosts}
+        loading
         selectMetric={action('selectMetric')}
         selectedMetric={{
           key: 'post_impressions',
