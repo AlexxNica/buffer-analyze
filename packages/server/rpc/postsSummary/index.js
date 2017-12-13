@@ -24,8 +24,6 @@ const LABELS = {
     posts_count: 'Posts',
     likes: 'Likes',
     comments: 'Comments',
-    followers: 'Total Followers',
-    new_followers: 'New Followers',
   },
 };
 
