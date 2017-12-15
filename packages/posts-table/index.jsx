@@ -6,10 +6,10 @@ import AddReport from '@bufferapp/add-report';
 
 import { actions } from './reducer';
 
-export const PostsTableWrapper = props => (<div id="js-dom-to-png-top-posts"><PostsTable
+export const PostsTableWrapper = props => (<div id="js-dom-to-png-posts"><PostsTable
   {...props}
   addToReportButton={<AddReport
-    chart="top-posts"
+    chart="posts"
     state={{
       descending: props.isDescendingSelected,
       sortBy: props.selectedMetric.apiKey,
@@ -36,7 +36,7 @@ PostsTableWrapper.propTypes = {
 // default export = container
 export default connect(
   (state, props) => ({
-    title: 'Top Posts',
+    title: 'Posts',
     loading: state.topPosts.loading,
     timezone: state.profiles.profiles.find(
       profile => profile.id === props.selectedProfileId,
