@@ -2,7 +2,7 @@
   "name": "@bufferapp/top-posts-table",
   "version": "0.23.1",
   "description": "The top posts table for Insights.",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "start": "start-storybook -p 9001",
     "lint": "eslint . --ignore-pattern coverage node_modules",

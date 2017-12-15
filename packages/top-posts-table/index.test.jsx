@@ -7,8 +7,8 @@ import TopPosts, {
   actions,
   actionTypes,
   middleware,
+  PostsTableWrapper,
 } from './index';
-import TopPostsTable from './components/TopPostsTable';
 
 jest.mock('@bufferapp/add-report');
 
@@ -52,8 +52,8 @@ const validStore = {
 };
 
 
-describe('TopPostsTable', () => {
-  it('should render TopPostsTable component', () => {
+describe('Top Post Table', () => {
+  it('should render PostsTableWrapper component', () => {
     const wrapper = mount(
       <Provider store={validStore}>
         <TopPosts
@@ -66,7 +66,7 @@ describe('TopPostsTable', () => {
         />
       </Provider>,
     );
-    expect(wrapper.find(TopPostsTable).length)
+    expect(wrapper.find(PostsTableWrapper).length)
       .toBe(1);
   });
 

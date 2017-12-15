@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { checkA11y } from 'storybook-addon-a11y';
 import { action } from '@storybook/addon-actions';
-import TopPostsTable from './index';
+import PostsTable from './index';
 
 const topPosts = [
   {
@@ -69,15 +69,16 @@ const topPosts = [
   },
 ];
 
-storiesOf('TopPostsTable')
+storiesOf('PostsTable')
   .addDecorator(checkA11y)
-  .add('should render the top posts table', () => (
+  .add('should render the posts table', () => (
     <div
       style={{
         width: '750px',
       }}
     >
-      <TopPostsTable
+      <PostsTable
+        title="Posts"
         timezone={'America/Los_Angeles'}
         profileService={'facebook'}
         metrics={topPosts}
@@ -93,13 +94,14 @@ storiesOf('TopPostsTable')
       />
     </div>
   ))
-  .add('should render the top posts table with default selected metric', () => (
+  .add('should render the posts table with default selected metric', () => (
     <div
       style={{
         width: '750px',
       }}
     >
-      <TopPostsTable
+      <PostsTable
+        title="Posts"
         timezone={'America/Los_Angeles'}
         profileService={'facebook'}
         metrics={topPosts}
@@ -118,7 +120,8 @@ storiesOf('TopPostsTable')
         width: '750px',
       }}
     >
-      <TopPostsTable
+      <PostsTable
+        title="Posts"
         timezone={'America/Los_Angeles'}
         profileService={'facebook'}
         loading
@@ -141,7 +144,8 @@ storiesOf('TopPostsTable')
         width: '750px',
       }}
     >
-      <TopPostsTable
+      <PostsTable
+        title="Posts"
         timezone={'America/Los_Angeles'}
         profileService={'facebook'}
         metrics={[]}

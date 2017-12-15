@@ -10,13 +10,12 @@ import {
   ChartStateLoading as Loading,
   ChartCard,
   ChartHeader,
-} from '@bufferapp/analyze-shared-components';
+} from '../index';
 
-import AddReport from '@bufferapp/add-report';
 
-import Title from '../Title';
-import PostItem from '../PostItem';
-import TopPostsHeader from '../TopPostsHeader';
+import Title from './components/Title';
+import PostItem from './components/PostItem';
+import PostsHeader from './components/PostsHeader';
 
 import {
   postsContainer,
@@ -24,9 +23,9 @@ import {
   metricColumn,
   contentColumn,
   chartContainer,
-} from '../../styles.less';
+} from './styles.less';
 
-import { metricsConfig } from '../../metrics';
+import { metricsConfig } from './metrics';
 
 const gridContainer = {
   position: 'relative',
@@ -121,8 +120,9 @@ Table.propTypes = {
   })).isRequired,
 };
 
-const TopPostsTable = (props) => {
+const PostsTable = (props) => {
   const {
+    addToReportButton,
     metrics,
     profileService,
     loading,
@@ -136,7 +136,7 @@ const TopPostsTable = (props) => {
     activePostsCount,
   } = props;
 
-  // TODO: Move this to RPC endpoint and pass it as a prop to TopPostTable components
+  // TODO: Move this to RPC endpoint and pass it as a prop to PostTable components
   const topPosts = metrics;
   const allPostMetrics = metricsConfig[profileService].postMetrics;
 
@@ -151,7 +151,7 @@ const TopPostsTable = (props) => {
   } else {
     content = (
       <div>
-        <TopPostsHeader
+        <PostsHeader
           metrics={allPostMetrics}
           selectedMetric={initialSelectedMetric}
           isDescendingSelected={isDescendingSelected}
@@ -173,15 +173,8 @@ const TopPostsTable = (props) => {
   return (
     <ChartCard>
       <ChartHeader>
-        <Title />
-        <AddReport
-          chart="top-posts"
-          state={{
-            descending: isDescendingSelected,
-            sortBy: selectedMetric.apiKey,
-            limit: activePostsCount,
-          }}
-        />
+        <Title {...props} />
+        {addToReportButton}
       </ChartHeader>
       <div style={gridContainer}>
         {content}
@@ -190,12 +183,13 @@ const TopPostsTable = (props) => {
   );
 };
 
-TopPostsTable.defaultProps = {
-  loading: false,
+PostsTable.defaultProps = {
   isDropdownOpen: false,
+  loading: false,
+  addToReportButton: null,
 };
 
-TopPostsTable.propTypes = {
+PostsTable.propTypes = {
   loading: PropTypes.bool,
   timezone: PropTypes.string.isRequired,
   profileService: PropTypes.string.isRequired,
@@ -224,6 +218,7 @@ TopPostsTable.propTypes = {
   selectMetric: PropTypes.func.isRequired,
   handlePostsCountClick: PropTypes.func.isRequired,
   activePostsCount: PropTypes.number.isRequired,
+  addToReportButton: PropTypes.element,
 };
 
-export default TopPostsTable;
+export default PostsTable;
