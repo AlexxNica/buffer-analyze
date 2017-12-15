@@ -8,6 +8,13 @@ import { actions } from './reducer';
 
 export const PostsTableWrapper = props => (<div id="js-dom-to-png-posts"><PostsTable
   {...props}
+  postsCounts={[
+    { value: '5' },
+    { value: '10' },
+    { value: '25' },
+    { value: '50' },
+    { value: 'All' },
+  ]}
   addToReportButton={<AddReport
     chart="posts"
     state={{
@@ -30,7 +37,7 @@ PostsTableWrapper.propTypes = {
     apiKey: PropTypes.string,
     label: PropTypes.string,
   }).isRequired,
-  activePostsCount: PropTypes.number.isRequired,
+  activePostsCount: PropTypes.string.isRequired,
 };
 
 // default export = container

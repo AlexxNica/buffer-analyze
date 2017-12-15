@@ -12,7 +12,7 @@ import {
 
 function getButtons (postsCounts, activePostsCount, handlePostsCountClick) {
   return postsCounts.map((button) => {
-    const active = button.value === activePostsCount;
+    const active = button.value === String(activePostsCount);
     const buttonClass = classNames(buttonItem, {
       [buttonActive]: active,
     });
@@ -39,25 +39,25 @@ const PostsCountBar = ({ postsCounts, activePostsCount, handlePostsCountClick })
 
 PostsCountBar.propTypes = {
   postsCounts: PropTypes.arrayOf(PropTypes.shape({
-    value: PropTypes.number,
+    value: PropTypes.string,
   })),
-  activePostsCount: PropTypes.number.isRequired,
+  activePostsCount: PropTypes.string.isRequired,
   handlePostsCountClick: PropTypes.func.isRequired,
 };
 
 PostsCountBar.defaultProps = {
   postsCounts: [
     {
-      value: 5,
+      value: '5',
     },
     {
-      value: 10,
+      value: '10',
     },
     {
-      value: 25,
+      value: '25',
     },
     {
-      value: 50,
+      value: '50',
     },
   ],
 };

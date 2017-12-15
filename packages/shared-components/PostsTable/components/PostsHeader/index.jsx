@@ -19,11 +19,13 @@ const TopPostsHeader = ({
   toggleDropdown,
   handlePostsCountClick,
   activePostsCount,
+  postsCounts,
 }) =>
   <div style={topPostsHeaderContainer}>
     <PostsCountBar
       handlePostsCountClick={handlePostsCountClick}
       activePostsCount={activePostsCount}
+      postsCounts={postsCounts}
     />
     <TopPostsDropdown
       metrics={metrics}
@@ -50,7 +52,14 @@ TopPostsHeader.propTypes = {
   selectMetric: PropTypes.func.isRequired,
   toggleDropdown: PropTypes.func.isRequired,
   handlePostsCountClick: PropTypes.func.isRequired,
-  activePostsCount: PropTypes.number.isRequired,
+  activePostsCount: PropTypes.string.isRequired,
+  postsCounts: PropTypes.arrayOf(PropTypes.shape({
+    value: PropTypes.string,
+  })),
+};
+
+TopPostsHeader.defaultProps = {
+  postsCounts: undefined,
 };
 
 export default TopPostsHeader;

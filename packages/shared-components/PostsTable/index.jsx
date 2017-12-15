@@ -160,6 +160,7 @@ const PostsTable = (props) => {
           isDropdownOpen={isDropdownOpen}
           handlePostsCountClick={handlePostsCountClick}
           activePostsCount={activePostsCount}
+          {...props}
         />
         <Table
           metrics={metrics}
@@ -217,7 +218,7 @@ PostsTable.propTypes = {
   toggleDropdown: PropTypes.func.isRequired,
   selectMetric: PropTypes.func.isRequired,
   handlePostsCountClick: PropTypes.func.isRequired,
-  activePostsCount: PropTypes.number.isRequired,
+  activePostsCount: PropTypes.string.isRequired,
   addToReportButton: PropTypes.element,
 };
 
