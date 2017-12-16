@@ -152,6 +152,7 @@ const PostsTable = (props) => {
     content = (
       <div>
         <PostsHeader
+          {...props}
           metrics={allPostMetrics}
           selectedMetric={initialSelectedMetric}
           isDescendingSelected={isDescendingSelected}
@@ -160,7 +161,6 @@ const PostsTable = (props) => {
           isDropdownOpen={isDropdownOpen}
           handlePostsCountClick={handlePostsCountClick}
           activePostsCount={activePostsCount}
-          {...props}
         />
         <Table
           metrics={metrics}

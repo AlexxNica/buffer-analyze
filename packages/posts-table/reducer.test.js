@@ -97,5 +97,4 @@ describe('reducer', () => {
       postsCount: 50,
     });
   });
-
 });
