@@ -44,17 +44,17 @@ PostsTableWrapper.propTypes = {
 export default connect(
   (state, props) => ({
     title: 'Posts',
-    loading: state.topPosts.loading,
+    loading: state.posts.loading,
     timezone: state.profiles.profiles.find(
       profile => profile.id === props.selectedProfileId,
     ).timezone,
-    metrics: state.topPosts.topPosts,
+    metrics: state.posts.posts,
     startDate: state.date.startDate,
     endDate: state.date.endDate,
-    isDropdownOpen: state.topPosts.isDropdownOpen,
-    isDescendingSelected: state.topPosts.isDescendingSelected,
-    selectedMetric: state.topPosts.selectedMetric,
-    activePostsCount: state.topPosts.activePostsCount,
+    isDropdownOpen: state.posts.isDropdownOpen,
+    isDescendingSelected: state.posts.isDescendingSelected,
+    selectedMetric: state.posts.selectedMetric,
+    activePostsCount: state.posts.activePostsCount,
   }),
   dispatch => ({
     selectMetric: ({ metric, descending }) => dispatch(

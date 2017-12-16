@@ -1,13 +1,13 @@
 import { actionTypes as asyncDataFetchActions } from '@bufferapp/async-data-fetch';
 import { actionTypes as profileActionTypes } from '@bufferapp/analyze-profile-selector';
-import reducer, { actions as topPostsActions, actionTypes as topPostsActionTypes } from './reducer';
+import reducer, { actions as postsActions, actionTypes as postsActionTypes } from './reducer';
 
 describe('reducer', () => {
-  it('has no topPosts in initial state', () => {
-    const topPosts = reducer(undefined, {
+  it('has no posts in initial state', () => {
+    const posts = reducer(undefined, {
       type: 'TEST_ACTION',
-    }).topPosts;
-    expect(topPosts).toEqual([]);
+    }).posts;
+    expect(posts).toEqual([]);
   });
   it('initial state is loading', () => {
     const loading = reducer(undefined, {
@@ -15,38 +15,38 @@ describe('reducer', () => {
     }).loading;
     expect(loading).toBeTruthy();
   });
-  it('has no top posts upon receiving FETCH_START', () => {
-    const topPosts = reducer(undefined, {
-      type: `top_posts_${asyncDataFetchActions.FETCH_START}`,
-    }).topPosts;
-    expect(topPosts).toEqual([]);
+  it('has no posts upon receiving FETCH_START', () => {
+    const posts = reducer(undefined, {
+      type: `posts_${asyncDataFetchActions.FETCH_START}`,
+    }).posts;
+    expect(posts).toEqual([]);
   });
   it('on fetch_success stops loading', () => {
     const state = reducer(undefined, {
-      type: `top_posts_${asyncDataFetchActions.FETCH_SUCCESS}`,
+      type: `posts_${asyncDataFetchActions.FETCH_SUCCESS}`,
     });
     expect(state.loading).toBeFalsy();
   });
   it('updates the state with the posts received on fetch_success', () => {
-    const topPosts = ['one', 'two', 'three'];
+    const posts = ['one', 'two', 'three'];
     const state = reducer(undefined, {
-      type: `top_posts_${asyncDataFetchActions.FETCH_SUCCESS}`,
-      result: topPosts,
+      type: `posts_${asyncDataFetchActions.FETCH_SUCCESS}`,
+      result: posts,
     });
-    expect(state.topPosts).toEqual(topPosts);
+    expect(state.posts).toEqual(posts);
   });
-  it('returns the initial state of top posts when a new profile is selected', () => {
+  it('returns the initial state of posts when a new profile is selected', () => {
     const newState = reducer(undefined, {
       type: `${profileActionTypes.SELECT_PROFILE}`,
     });
-    expect(newState.topPosts).toEqual([]);
+    expect(newState.posts).toEqual([]);
   });
   it('updates the state when the dropdown is toggled', () => {
     const initialState = {
       isDropdownOpen: false,
     };
     const state = reducer(initialState, {
-      type: `${topPostsActionTypes.TOGGLE_TOP_POSTS_DROPDOWN}`,
+      type: `${postsActionTypes.TOGGLE_TOP_POSTS_DROPDOWN}`,
     });
     expect(state.isDropdownOpen).toBeTruthy();
   });
@@ -55,7 +55,7 @@ describe('reducer', () => {
       isDropdownOpen: true,
     };
     const newState = reducer(initialState, {
-      type: `${topPostsActionTypes.SELECT_TOP_POSTS_METRIC}`,
+      type: `${postsActionTypes.SELECT_TOP_POSTS_METRIC}`,
       metric: 'reactions',
       descending: false,
     });
@@ -65,10 +65,10 @@ describe('reducer', () => {
       isDescendingSelected: false,
     });
   });
-  it('updates the state when a new top posts count is selected', () => {
+  it('updates the state when a new posts count is selected', () => {
     const initialState = {};
     const newState = reducer(initialState, {
-      type: `${topPostsActionTypes.SELECT_TOP_POSTS_COUNT}`,
+      type: `${postsActionTypes.SELECT_TOP_POSTS_COUNT}`,
       postsCount: 50,
     });
     expect(newState).toEqual({
@@ -77,24 +77,25 @@ describe('reducer', () => {
   });
   // testing actions
   it('returns the right action upon selectMetric', () => {
-    const newAction = topPostsActions.selectMetric('reactions', false);
+    const newAction = postsActions.selectMetric('reactions', false);
     expect(newAction).toEqual({
-      type: `${topPostsActionTypes.SELECT_TOP_POSTS_METRIC}`,
+      type: `${postsActionTypes.SELECT_TOP_POSTS_METRIC}`,
       metric: 'reactions',
       descending: false,
     });
   });
   it('returns the right action upon toggleDropdown', () => {
-    const newAction = topPostsActions.toggleDropdown();
+    const newAction = postsActions.toggleDropdown();
     expect(newAction).toEqual({
-      type: `${topPostsActionTypes.TOGGLE_TOP_POSTS_DROPDOWN}`,
+      type: `${postsActionTypes.TOGGLE_TOP_POSTS_DROPDOWN}`,
     });
   });
   it('returns the right action upon handlePostsCountClick', () => {
-    const newAction = topPostsActions.handlePostsCountClick(50);
+    const newAction = postsActions.handlePostsCountClick(50);
     expect(newAction).toEqual({
-      type: `${topPostsActionTypes.SELECT_TOP_POSTS_COUNT}`,
+      type: `${postsActionTypes.SELECT_TOP_POSTS_COUNT}`,
       postsCount: 50,
     });
   });
+
 });

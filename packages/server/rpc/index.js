@@ -9,6 +9,7 @@ const followers = require('./followers');
 const analyticsStartDate = require('./analyticsStartDate');
 const average = require('./average');
 const topPosts = require('./topPosts');
+const posts = require('./posts');
 const hourly = require('./hourly');
 const compare = require('./compare');
 const createReport = require('./createReport');
@@ -34,6 +35,7 @@ module.exports = checkToken(rpc(
   postsSummary,
   average,
   topPosts,
+  posts,
   hourly,
   compare,
   createReport,

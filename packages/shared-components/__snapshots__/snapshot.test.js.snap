@@ -6050,9 +6050,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Impressions
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -6124,191 +6122,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Impressions
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              DESC
-                            </span>
-                            <div
-                              style={
-                                Object {
-                                  "marginLeft": "auto",
-                                }
-                              }
-                            >
-                              <svg
-                                height="100%"
-                                style={
-                                  Object {
-                                    "fill": "#168eea",
-                                    "height": "1rem",
-                                    "width": "1rem",
-                                  }
-                                }
-                                version="1.1"
-                                viewBox="0 0 16 16"
-                                width="100%"
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                              >
-                                <g
-                                  className="curiousBlue"
-                                >
-                                  <path
-                                    d="M5,12 C5,11.4477153 5.44335318,11 6.0093689,11 L9,11 L9,2.99754465 C9,2.44661595 9.44386482,2 10,2 L10,2 C10.5522847,2 11,2.44483697 11,2.9955775 L11,12.0044225 C11,12.5542648 10.5490248,13 10.009222,13 L5.99077797,13 C5.44358641,13 5,12.5561352 5,12 L5,12 Z"
-                                    transform="translate(8.000000, 7.500000) rotate(-315.000000) translate(-8.000000, -7.500000) "
-                                  />
-                                </g>
-                              </svg>
-                            </div>
-                          </span>
-                        </button>
-                      </li>
-                    </span>
-                    <span>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Post Reach
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              ASC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Post Reach
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -6382,9 +6196,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Clicks
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -6456,9 +6268,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Clicks
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -6532,9 +6342,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Reactions
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -6606,309 +6414,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Reactions
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              DESC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                    </span>
-                    <span>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Comments
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              ASC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Comments
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              DESC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                    </span>
-                    <span>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Shares
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              ASC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Shares
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -8220,9 +7726,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                         "fontWeight": 400,
                       }
                     }
-                  >
-                    Post Impressions
-                  </span>
+                  />
                   <span>
                      
                   </span>
@@ -8331,9 +7835,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Impressions
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -8405,9 +7907,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Impressions
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -8513,9 +8013,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Reach
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -8587,9 +8085,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Reach
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -8605,6 +8101,38 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             >
                               DESC
                             </span>
+                            <div
+                              style={
+                                Object {
+                                  "marginLeft": "auto",
+                                }
+                              }
+                            >
+                              <svg
+                                height="100%"
+                                style={
+                                  Object {
+                                    "fill": "#168eea",
+                                    "height": "1rem",
+                                    "width": "1rem",
+                                  }
+                                }
+                                version="1.1"
+                                viewBox="0 0 16 16"
+                                width="100%"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlnsXlink="http://www.w3.org/1999/xlink"
+                              >
+                                <g
+                                  className="curiousBlue"
+                                >
+                                  <path
+                                    d="M5,12 C5,11.4477153 5.44335318,11 6.0093689,11 L9,11 L9,2.99754465 C9,2.44661595 9.44386482,2 10,2 L10,2 C10.5522847,2 11,2.44483697 11,2.9955775 L11,12.0044225 C11,12.5542648 10.5490248,13 10.009222,13 L5.99077797,13 C5.44358641,13 5,12.5561352 5,12 L5,12 Z"
+                                    transform="translate(8.000000, 7.500000) rotate(-315.000000) translate(-8.000000, -7.500000) "
+                                  />
+                                </g>
+                              </svg>
+                            </div>
                           </span>
                         </button>
                       </li>
@@ -8663,9 +8191,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Clicks
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -8737,9 +8263,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                                   "fontWeight": 700,
                                 }
                               }
-                            >
-                              Post Clicks
-                            </span>
+                            />
                             <span>
                                
                             </span>
@@ -8755,456 +8279,38 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             >
                               DESC
                             </span>
-                          </span>
-                        </button>
-                      </li>
-                    </span>
-                    <span>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
+                            <div
                               style={
                                 Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
+                                  "marginLeft": "auto",
                                 }
                               }
                             >
-                              Reactions
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
+                              <svg
+                                height="100%"
+                                style={
+                                  Object {
+                                    "fill": "#168eea",
+                                    "height": "1rem",
+                                    "width": "1rem",
+                                  }
                                 }
-                              }
-                            >
-                              ASC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Reactions
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              DESC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                    </span>
-                    <span>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Comments
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              ASC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Comments
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              DESC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                    </span>
-                    <span>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Shares
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              ASC
-                            </span>
-                          </span>
-                        </button>
-                      </li>
-                      <li
-                        className="dropdownListItem"
-                      >
-                        <button
-                          aria-label={null}
-                          disabled={undefined}
-                          onBlur={[Function]}
-                          onClick={[Function]}
-                          onFocus={[Function]}
-                          onMouseEnter={[Function]}
-                          onMouseLeave={[Function]}
-                          style={
-                            Object {
-                              "background": "none",
-                              "backgroundColor": "unset",
-                              "border": "none",
-                              "borderRadius": "unset",
-                              "color": "unset",
-                              "cursor": "pointer",
-                              "display": "unset",
-                              "fontFamily": "unset",
-                              "fontSize": "unset",
-                              "fontWeight": "unset",
-                              "lineHeight": "unset",
-                              "margin": "unset",
-                              "outline": "none",
-                              "padding": 0,
-                              "transition": "unset",
-                            }
-                          }
-                        >
-                          <span
-                            style={
-                              Object {
-                                "alignItems": "center",
-                                "boxSizing": "border-box",
-                                "display": "flex",
-                                "marginTop": "7px",
-                                "padding": "5px 10px",
-                                "position": "relative",
-                                "width": "200px",
-                              }
-                            }
-                          >
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 700,
-                                }
-                              }
-                            >
-                              Shares
-                            </span>
-                            <span>
-                               
-                            </span>
-                            <span
-                              style={
-                                Object {
-                                  "color": "#59626a",
-                                  "fontFamily": "\\"Roboto\\", sans-serif",
-                                  "fontSize": "0.75rem",
-                                  "fontWeight": 400,
-                                }
-                              }
-                            >
-                              DESC
-                            </span>
+                                version="1.1"
+                                viewBox="0 0 16 16"
+                                width="100%"
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlnsXlink="http://www.w3.org/1999/xlink"
+                              >
+                                <g
+                                  className="curiousBlue"
+                                >
+                                  <path
+                                    d="M5,12 C5,11.4477153 5.44335318,11 6.0093689,11 L9,11 L9,2.99754465 C9,2.44661595 9.44386482,2 10,2 L10,2 C10.5522847,2 11,2.44483697 11,2.9955775 L11,12.0044225 C11,12.5542648 10.5490248,13 10.009222,13 L5.99077797,13 C5.44358641,13 5,12.5561352 5,12 L5,12 Z"
+                                    transform="translate(8.000000, 7.500000) rotate(-315.000000) translate(-8.000000, -7.500000) "
+                                  />
+                                </g>
+                              </svg>
+                            </div>
                           </span>
                         </button>
                       </li>

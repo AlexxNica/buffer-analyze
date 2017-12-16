@@ -37,9 +37,9 @@ const validStore = {
     profiles: {
       profiles: [profile],
     },
-    topPosts: {
+    posts: {
       loading: false,
-      topPosts: [],
+      posts: [],
       selectedMetric: {
         key: 'reactions',
         label: 'Reactions',
@@ -90,7 +90,7 @@ describe('Top Post Table', () => {
       .toBeDefined();
   });
 
-  it('topPostsTable should call the selectMetric action with the correct values', () => {
+  it('postsTable should call the selectMetric action with the correct values', () => {
     const component = shallow(<TopPosts
       profileService="facebook"
       selectedProfileId="4e88a092512f7e1556000000"
@@ -106,7 +106,7 @@ describe('Top Post Table', () => {
     expect(validStore.dispatch).toHaveBeenCalledWith(actions.selectMetric('reactions', true));
   });
 
-  it('topPostsTable should call the handlePostsCountClick action with the correct values', () => {
+  it('postsTable should call the handlePostsCountClick action with the correct values', () => {
     const component = shallow(<TopPosts
       profileService="facebook"
       selectedProfileId="4e88a092512f7e1556000000"
@@ -121,7 +121,7 @@ describe('Top Post Table', () => {
     expect(validStore.dispatch).toHaveBeenCalledWith(actions.handlePostsCountClick(10));
   });
 
-  it('topPostsTable should call the toggleDropdown action', () => {
+  it('postsTable should call the toggleDropdown action', () => {
     const component = shallow(<TopPosts
       profileService="facebook"
       selectedProfileId="4e88a092512f7e1556000000"

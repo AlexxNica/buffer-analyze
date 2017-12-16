@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/posts-table",
-  "version": "0.23.1",
+  "version": "0.1.0",
   "description": "The table for Insights.",
   "main": "index.jsx",
   "scripts": {

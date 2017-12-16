@@ -5,7 +5,7 @@ import { actionTypes as profileActionTypes } from '@bufferapp/analyze-profile-se
 import { actionTypes as dateActionTypes } from '@bufferapp/analyze-date-picker';
 import { actionTypes as exportActionTypes, actions as exportActions } from '@bufferapp/analyze-png-export';
 import { actionTypes as exportCSVActionTypes, actions as exportCSVActions } from '@bufferapp/analyze-csv-export';
-import { actionTypes as topPostsActionTypes } from './reducer';
+import { actionTypes as postsActionTypes } from './reducer';
 
 const EXPORT_FILENAME = 'posts';
 
@@ -38,13 +38,13 @@ const getSelectedProfileTimezone = ({ profiles, selectedProfileId }) => {
   return selectedProfile.timezone;
 };
 
-const formatDataForCSVExport = ({ topPosts }, profileState) => {
-  const keys = Object.keys(topPosts[0]);
+const formatDataForCSVExport = ({ posts }, profileState) => {
+  const keys = Object.keys(posts[0]);
   const timezone = getSelectedProfileTimezone(profileState);
   const data = {};
   keys.forEach((key) => {
     data[key] = [];
-    topPosts.forEach((post) => {
+    posts.forEach((post) => {
       const formattedKey = formatDataForKey(key, post, timezone);
       if (key === 'statistics') {
         delete data.statistics;
@@ -65,11 +65,11 @@ export default store => next => (action) => { // eslint-disable-line no-unused-v
   const { dispatch, getState } = store;
   switch (action.type) {
     case exportCSVActionTypes.EXPORT_TO_CSV_START:
-      if (getState().topPosts.topPosts.length) {
+      if (getState().posts.posts.length) {
         dispatch(
           exportCSVActions.exportChart(
             EXPORT_FILENAME,
-            formatDataForCSVExport(getState().topPosts, getState().profiles),
+            formatDataForCSVExport(getState().posts, getState().profiles),
           ),
         );
       }
@@ -77,35 +77,35 @@ export default store => next => (action) => { // eslint-disable-line no-unused-v
     case exportActionTypes.EXPORT_TO_PNG_START:
       dispatch(exportActions.exportChart('js-dom-to-png-posts', EXPORT_FILENAME));
       break;
-    case topPostsActionTypes.SELECT_TOP_POSTS_METRIC:
+    case postsActionTypes.SELECT_TOP_POSTS_METRIC:
       dispatch(actions.fetch({
-        name: 'top_posts',
+        name: 'posts',
         args: {
           profileId: getState().profiles.selectedProfileId,
           startDate: getState().date.startDate,
           endDate: getState().date.endDate,
           sortBy: action.metric.apiKey,
           descending: action.descending,
-          limit: getState().topPosts.activePostsCount,
+          limit: getState().posts.activePostsCount,
         },
       }));
       break;
-    case topPostsActionTypes.SELECT_TOP_POSTS_COUNT:
+    case postsActionTypes.SELECT_TOP_POSTS_COUNT:
       dispatch(actions.fetch({
-        name: 'top_posts',
+        name: 'posts',
         args: {
           profileId: getState().profiles.selectedProfileId,
           startDate: getState().date.startDate,
           endDate: getState().date.endDate,
-          sortBy: getState().topPosts.selectedMetric.apiKey,
-          descending: getState().topPosts.isDescendingSelected,
-          limit: action.postsCount,
+          sortBy: getState().posts.selectedMetric.apiKey,
+          descending: getState().posts.isDescendingSelected,
+          limit: action.postsCount !== 'All' ? action.postsCount : undefined,
         },
       }));
       break;
     case profileActionTypes.SELECT_PROFILE:
       dispatch(actions.fetch({
-        name: 'top_posts',
+        name: 'posts',
         args: {
           profileId: action.id,
           startDate: getState().date.startDate,
@@ -115,14 +115,14 @@ export default store => next => (action) => { // eslint-disable-line no-unused-v
       break;
     case dateActionTypes.SET_DATE_RANGE:
       dispatch(actions.fetch({
-        name: 'top_posts',
+        name: 'posts',
         args: {
           profileId: getState().profiles.selectedProfileId,
           startDate: action.startDate,
           endDate: action.endDate,
-          sortBy: getState().topPosts.selectedMetric.apiKey,
-          descending: getState().topPosts.isDescendingSelected,
-          limit: getState().topPosts.activePostsCount,
+          sortBy: getState().posts.selectedMetric.apiKey,
+          descending: getState().posts.isDescendingSelected,
+          limit: getState().posts.activePostsCount,
         },
       }));
       break;

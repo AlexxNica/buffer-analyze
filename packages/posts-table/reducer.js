@@ -8,7 +8,7 @@ export const actionTypes = {
 };
 
 const initialState = {
-  topPosts: [],
+  posts: [],
   loading: true,
   metrics: [],
   isDropdownOpen: false,
@@ -19,18 +19,18 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case `top_posts_${asyncDataFetchActionTypes.FETCH_START}`:
+    case `posts_${asyncDataFetchActionTypes.FETCH_START}`:
       return {
         ...initialState,
         activePostsCount: state.activePostsCount,
         selectedMetric: state.selectedMetric,
         isDescendingSelected: state.isDescendingSelected,
       };
-    case `top_posts_${asyncDataFetchActionTypes.FETCH_SUCCESS}`:
+    case `posts_${asyncDataFetchActionTypes.FETCH_SUCCESS}`:
       return {
         ...state,
         loading: false,
-        topPosts: action.result,
+        posts: action.result,
       };
     case actionTypes.SELECT_TOP_POSTS_METRIC:
       return {
