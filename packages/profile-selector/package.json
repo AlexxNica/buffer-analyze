@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/analyze-profile-selector",
-  "version": "0.23.1",
+  "version": "0.24.0",
   "description": "Profile selector dropdown",
   "main": "index.jsx",
   "scripts": {

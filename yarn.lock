@@ -2,6 +2,25 @@
 # yarn lockfile v1
 
 
+"@bufferapp/analyze-date-picker@^0.23.1":
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/@bufferapp/analyze-date-picker/-/analyze-date-picker-0.23.1.tgz#3523ac9df0bf235fd0354097bd1650d0ce967ebd"
+  dependencies:
+    "@bufferapp/analyze-profile-selector" "^0.23.1"
+    "@bufferapp/async-data-fetch" "0.5.36-beta01"
+    "@bufferapp/components" "2.1.1"
+    moment "^2.18.1"
+    react-tooltip "^3.3.0"
+    styled-components "^2.2.1"
+
+"@bufferapp/analyze-profile-selector@^0.23.1":
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/@bufferapp/analyze-profile-selector/-/analyze-profile-selector-0.23.1.tgz#f92ed3ff37b6c65522b6f6ffa9d5a0d814ec3599"
+  dependencies:
+    "@bufferapp/analyze-shared-components" "^0.22.0"
+    "@bufferapp/components" "2.1.1"
+    react-simple-dropdown "3.0.0"
+
 "@bufferapp/app-sidebar@1.2.3":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@bufferapp/app-sidebar/-/app-sidebar-1.2.3.tgz#bc02453ff23c6a49715a63ae60f9e3bca54df443"
@@ -61,6 +80,15 @@
 "@bufferapp/micro-rpc@0.1.7":
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/@bufferapp/micro-rpc/-/micro-rpc-0.1.7.tgz#a97782dc88cf476278911287728bef538adb25b9"
+
+"@bufferapp/nav-sidebar@^0.23.1":
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/@bufferapp/nav-sidebar/-/nav-sidebar-0.23.1.tgz#76e13aabf853dd175b7c5bced8f5b8ac753cb80f"
+  dependencies:
+    "@bufferapp/analyze-profile-selector" "^0.23.1"
+    "@bufferapp/async-data-fetch" "0.5.36-beta01"
+    "@bufferapp/components" "2.1.1"
+    "@bufferapp/report-list" "^0.22.0"
 
 "@bufferapp/react-keyframes@0.2.4":
   version "0.2.4"

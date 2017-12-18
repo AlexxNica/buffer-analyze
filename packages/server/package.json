@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/server-analyze",
-  "version": "0.23.1",
+  "version": "0.24.0",
   "description": "",
   "scripts": {
     "start": "micro",
