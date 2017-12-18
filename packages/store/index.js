@@ -19,6 +19,7 @@ import { middleware as exportPickerMiddleware } from '@bufferapp/analyze-export-
 import { middleware as exportToPNGMiddleware } from '@bufferapp/analyze-png-export';
 import { middleware as exportToCSVMiddleware } from '@bufferapp/analyze-csv-export';
 import { middleware as topPostsMiddleware } from '@bufferapp/top-posts-table';
+import { middleware as postsMiddleware } from '@bufferapp/posts-table';
 import { middleware as hourly } from '@bufferapp/hourly-chart';
 import { middleware as compareChartMiddleware } from '@bufferapp/compare-chart';
 import { middleware as audienceChartMiddleware } from '@bufferapp/audience-chart';
@@ -64,6 +65,7 @@ const configureStore = (initialstate) => {
         postsSummaryMiddleware,
         averageMiddleware,
         topPostsMiddleware,
+        postsMiddleware,
         hourly,
         compareChartMiddleware,
         audienceChartMiddleware,

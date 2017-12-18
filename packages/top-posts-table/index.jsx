@@ -1,11 +1,42 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import TopPostsTable from './components/TopPostsTable';
+import { PostsTable } from '@bufferapp/analyze-shared-components';
+import AddReport from '@bufferapp/add-report';
 
 import { actions } from './reducer';
+
+export const PostsTableWrapper = props => (<div id="js-dom-to-png-top-posts"><PostsTable
+  {...props}
+  addToReportButton={<AddReport
+    chart="top-posts"
+    state={{
+      descending: props.isDescendingSelected,
+      sortBy: props.selectedMetric.apiKey,
+      limit: props.activePostsCount,
+    }}
+  />}
+/></div>);
+
+PostsTableWrapper.defaultProps = {
+  isDropdownOpen: false,
+  loading: false,
+};
+
+PostsTableWrapper.propTypes = {
+  isDescendingSelected: PropTypes.bool.isRequired,
+  selectedMetric: PropTypes.shape({
+    key: PropTypes.string,
+    apiKey: PropTypes.string,
+    label: PropTypes.string,
+  }).isRequired,
+  activePostsCount: PropTypes.string.isRequired,
+};
 
 // default export = container
 export default connect(
   (state, props) => ({
+    title: 'Top Posts',
     loading: state.topPosts.loading,
     timezone: state.profiles.profiles.find(
       profile => profile.id === props.selectedProfileId,
@@ -27,10 +58,8 @@ export default connect(
       actions.handlePostsCountClick(postsCount),
     ),
   }),
-)(TopPostsTable);
+)(PostsTableWrapper);
 
-export Title from './components/Title';
-export { Table } from './components/TopPostsTable';
 // export reducer, actions and action types
 export reducer, { actions, actionTypes } from './reducer';
 export middleware from './middleware';

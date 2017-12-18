@@ -1,18 +1,23 @@
 import React from 'react';
 import Text from '@bufferapp/components/Text';
+import PropTypes from 'prop-types';
 
-const title = {
+const style = {
   margin: '0',
   padding: '0',
 };
 
-const Title = () =>
-  <h2 style={title}>
+const Title = ({ title }) =>
+  <h2 style={style}>
     <Text weight="bold" size="large">
-      Top Posts
+      { title }
     </Text>
   </h2>
 ;
+
+Title.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 
 export default Title;
 

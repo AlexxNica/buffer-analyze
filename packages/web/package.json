@@ -48,6 +48,7 @@
     "@bufferapp/report": "^0.23.1",
     "@bufferapp/report-list": "^0.22.0",
     "@bufferapp/summary-table": "^0.23.1",
+    "@bufferapp/posts-table": "^0.1.0",
     "@bufferapp/top-posts-table": "^0.23.1"
   },
   "author": "Mike San Román <mike@msanroman.io> (http://msanroman.io)",

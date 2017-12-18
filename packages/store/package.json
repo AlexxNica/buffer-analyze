@@ -49,6 +49,7 @@
     "@bufferapp/report-list": "^0.22.0",
     "@bufferapp/summary-table": "^0.23.1",
     "@bufferapp/top-posts-table": "^0.23.1",
+    "@bufferapp/posts-table": "^0.1.0",
     "@bufferapp/unauthorized-redirect": "1.2.3"
   },
   "devDependencies": {
