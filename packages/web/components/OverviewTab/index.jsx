@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import SummaryTable from '@bufferapp/summary-table';
 import AverageTable from '@bufferapp/average-table';
 import CompareChart from '@bufferapp/compare-chart';
-import TopPostsTable from '@bufferapp/top-posts-table';
 import HourlyChart from '@bufferapp/hourly-chart';
 import ContextualCompare from '@bufferapp/contextual-compare';
 import AudienceChart from '@bufferapp/audience-chart';
@@ -18,7 +17,6 @@ const OverviewTab = ({ match }) => (
     <CompareChart />
     {match.params.service === 'instagram' && <AudienceChart />}
     {match.params.service === 'facebook' && <ContextualCompare /> }
-    <TopPostsTable selectedProfileId={match.params.id} profileService={match.params.service} />
   </div>
 );
 

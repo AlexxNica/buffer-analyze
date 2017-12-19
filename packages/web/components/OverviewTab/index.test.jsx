@@ -7,7 +7,6 @@ import configureMockStore from 'redux-mock-store';
 import SummaryTable from '@bufferapp/summary-table';
 import AverageTable from '@bufferapp/average-table';
 import CompareChart from '@bufferapp/compare-chart';
-import TopPostsTable from '@bufferapp/top-posts-table';
 import HourlyChart from '@bufferapp/hourly-chart';
 import ContextualCompare from '@bufferapp/contextual-compare';
 
@@ -38,8 +37,6 @@ describe('web/OverviewTab', () => {
       .toBe(1);
     expect(component.find(ContextualCompare).length)
       .toBe(1);
-    expect(component.find(TopPostsTable).length)
-      .toBe(1);
   });
   it('should render the overview for twitter', () => {
     const mockStore = configureMockStore();
@@ -62,8 +59,6 @@ describe('web/OverviewTab', () => {
       .toBe(1);
     expect(component.find(CompareChart).length)
       .toBe(1);
-    expect(component.find(TopPostsTable).length)
-      .toBe(1);
   });
   it('should render the overview for instagram', () => {
     const mockStore = configureMockStore();
@@ -81,8 +76,6 @@ describe('web/OverviewTab', () => {
     expect(component.find(SummaryTable).length)
       .toBe(1);
     expect(component.find(CompareChart).length)
-      .toBe(1);
-    expect(component.find(TopPostsTable).length)
       .toBe(1);
   });
 });
