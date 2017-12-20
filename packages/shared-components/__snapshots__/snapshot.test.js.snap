@@ -3616,7 +3616,7 @@ exports[`Snapshots MetricGraph should render MetricGraph with maxValue greater t
               Object {
                 "color": "#59626a",
                 "fontFamily": "\\"Roboto\\", sans-serif",
-                "fontSize": "0.75rem",
+                "fontSize": "1rem",
                 "fontWeight": 700,
               }
             }
@@ -3677,7 +3677,7 @@ exports[`Snapshots MetricGraph should render MetricGraph with maxValue less than
               Object {
                 "color": "#59626a",
                 "fontFamily": "\\"Roboto\\", sans-serif",
-                "fontSize": "0.75rem",
+                "fontSize": "1rem",
                 "fontWeight": 700,
               }
             }
@@ -5025,8 +5025,8 @@ exports[`Snapshots PostItem should not render the top posts item when no metrics
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.75rem",
-                    "fontWeight": 400,
+                    "fontSize": "1rem",
+                    "fontWeight": 700,
                   }
                 }
               >
@@ -5105,8 +5105,8 @@ exports[`Snapshots PostItem should render the top posts item 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.75rem",
-                    "fontWeight": 400,
+                    "fontSize": "1rem",
+                    "fontWeight": 700,
                   }
                 }
               >
@@ -5163,7 +5163,7 @@ exports[`Snapshots PostItem should render the top posts item 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.75rem",
+                    "fontSize": "1rem",
                     "fontWeight": 700,
                   }
                 }
@@ -5210,7 +5210,7 @@ exports[`Snapshots PostItem should render the top posts item 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.75rem",
+                    "fontSize": "1rem",
                     "fontWeight": 700,
                   }
                 }
@@ -5257,7 +5257,7 @@ exports[`Snapshots PostItem should render the top posts item 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.75rem",
+                    "fontSize": "1rem",
                     "fontWeight": 700,
                   }
                 }
@@ -5304,7 +5304,7 @@ exports[`Snapshots PostItem should render the top posts item 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.75rem",
+                    "fontSize": "1rem",
                     "fontWeight": 700,
                   }
                 }
@@ -5355,7 +5355,7 @@ exports[`Snapshots PostItem should render the top posts item 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.75rem",
+                    "fontSize": "1rem",
                     "fontWeight": 700,
                   }
                 }
@@ -5402,7 +5402,7 @@ exports[`Snapshots PostItem should render the top posts item 1`] = `
                   Object {
                     "color": "#59626a",
                     "fontFamily": "\\"Roboto\\", sans-serif",
-                    "fontSize": "0.75rem",
+                    "fontSize": "1rem",
                     "fontWeight": 700,
                   }
                 }
@@ -6936,60 +6936,6 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
           <aside
             className="chartContainer"
           >
-            <header>
-              <ul
-                className="chartColumnHeader"
-              >
-                <li
-                  className="contentColumn"
-                >
-                  <span
-                    style={
-                      Object {
-                        "color": "#59626a",
-                        "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
-                        "fontWeight": 400,
-                      }
-                    }
-                  >
-                    Posts and Stories
-                  </span>
-                </li>
-                <li
-                  className="metricColumn"
-                >
-                  <span
-                    style={
-                      Object {
-                        "color": "#59626a",
-                        "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
-                        "fontWeight": 400,
-                      }
-                    }
-                  >
-                    Engagements
-                  </span>
-                </li>
-                <li
-                  className="metricColumn"
-                >
-                  <span
-                    style={
-                      Object {
-                        "color": "#59626a",
-                        "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
-                        "fontWeight": 400,
-                      }
-                    }
-                  >
-                    Audience
-                  </span>
-                </li>
-              </ul>
-            </header>
             <ul
               className="postsContainer"
             >
@@ -7016,8 +6962,8 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
-                              "fontWeight": 400,
+                              "fontSize": "1rem",
+                              "fontWeight": 700,
                             }
                           }
                         >
@@ -7074,7 +7020,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7121,7 +7067,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7168,7 +7114,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7215,7 +7161,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7266,7 +7212,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7313,7 +7259,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7373,8 +7319,8 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
-                              "fontWeight": 400,
+                              "fontSize": "1rem",
+                              "fontWeight": 700,
                             }
                           }
                         >
@@ -7434,7 +7380,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7481,7 +7427,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7528,7 +7474,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7575,7 +7521,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7626,7 +7572,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7673,7 +7619,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7733,8 +7679,8 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
-                              "fontWeight": 400,
+                              "fontSize": "1rem",
+                              "fontWeight": 700,
                             }
                           }
                         >
@@ -7788,7 +7734,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7835,7 +7781,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7882,7 +7828,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7929,7 +7875,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -7980,7 +7926,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -8027,7 +7973,7 @@ exports[`Snapshots PostsTable should render the posts table 1`] = `
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9217,60 +9163,6 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
           <aside
             className="chartContainer"
           >
-            <header>
-              <ul
-                className="chartColumnHeader"
-              >
-                <li
-                  className="contentColumn"
-                >
-                  <span
-                    style={
-                      Object {
-                        "color": "#59626a",
-                        "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
-                        "fontWeight": 400,
-                      }
-                    }
-                  >
-                    Posts and Stories
-                  </span>
-                </li>
-                <li
-                  className="metricColumn"
-                >
-                  <span
-                    style={
-                      Object {
-                        "color": "#59626a",
-                        "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
-                        "fontWeight": 400,
-                      }
-                    }
-                  >
-                    Engagements
-                  </span>
-                </li>
-                <li
-                  className="metricColumn"
-                >
-                  <span
-                    style={
-                      Object {
-                        "color": "#59626a",
-                        "fontFamily": "\\"Roboto\\", sans-serif",
-                        "fontSize": "0.5rem",
-                        "fontWeight": 400,
-                      }
-                    }
-                  >
-                    Audience
-                  </span>
-                </li>
-              </ul>
-            </header>
             <ul
               className="postsContainer"
             >
@@ -9297,8 +9189,8 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
-                              "fontWeight": 400,
+                              "fontSize": "1rem",
+                              "fontWeight": 700,
                             }
                           }
                         >
@@ -9355,7 +9247,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9402,7 +9294,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9449,7 +9341,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9496,7 +9388,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9547,7 +9439,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9594,7 +9486,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9654,8 +9546,8 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
-                              "fontWeight": 400,
+                              "fontSize": "1rem",
+                              "fontWeight": 700,
                             }
                           }
                         >
@@ -9715,7 +9607,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9762,7 +9654,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9809,7 +9701,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9856,7 +9748,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9907,7 +9799,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -9954,7 +9846,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -10014,8 +9906,8 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
-                              "fontWeight": 400,
+                              "fontSize": "1rem",
+                              "fontWeight": 700,
                             }
                           }
                         >
@@ -10069,7 +9961,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -10116,7 +10008,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -10163,7 +10055,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -10210,7 +10102,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -10261,7 +10153,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }
@@ -10308,7 +10200,7 @@ exports[`Snapshots PostsTable should render the posts table with default selecte
                             Object {
                               "color": "#59626a",
                               "fontFamily": "\\"Roboto\\", sans-serif",
-                              "fontSize": "0.75rem",
+                              "fontSize": "1rem",
                               "fontWeight": 700,
                             }
                           }

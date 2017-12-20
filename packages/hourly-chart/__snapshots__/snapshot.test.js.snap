@@ -563,7 +563,7 @@ exports[`Snapshots HourlyChart loaded chart 1`] = `
               }
             }
           >
-            Hourly Engagements
+            Hourly engagements
           </span>
         </h2>
       </header>
@@ -1367,7 +1367,7 @@ exports[`Snapshots HourlyChart loading state 1`] = `
               }
             }
           >
-            Hourly Engagements
+            Hourly engagements
           </span>
         </h2>
       </header>
@@ -1534,7 +1534,7 @@ exports[`Snapshots HourlyChart second metric selected 1`] = `
               }
             }
           >
-            Hourly Engagements
+            Hourly engagements
           </span>
         </h2>
       </header>

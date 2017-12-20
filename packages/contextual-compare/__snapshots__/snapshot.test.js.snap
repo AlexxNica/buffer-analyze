@@ -49,7 +49,7 @@ exports[`Snapshots ContextualCompare [TESTED] Should render in Custom mode 1`] =
               }
             }
           >
-            Engagement & Audience
+            Engagement and audience
           </span>
         </h2>
       </header>
@@ -641,7 +641,7 @@ exports[`Snapshots ContextualCompare [TESTED] Should render in Presets mode with
               }
             }
           >
-            Engagement & Audience
+            Engagement and audience
           </span>
         </h2>
       </header>
@@ -1188,7 +1188,7 @@ exports[`Snapshots ContextualCompare [TESTED] Should render in Presets mode with
               }
             }
           >
-            Engagement & Audience
+            Engagement and audience
           </span>
         </h2>
       </header>
@@ -1771,7 +1771,7 @@ exports[`Snapshots ContextualCompare [TESTED] should render a "no data" state 1`
               }
             }
           >
-            Engagement & Audience
+            Engagement and audience
           </span>
         </h2>
       </header>
@@ -1894,7 +1894,7 @@ exports[`Snapshots ContextualCompare [TESTED] should render a loading state 1`] 
               }
             }
           >
-            Engagement & Audience
+            Engagement and audience
           </span>
         </h2>
       </header>

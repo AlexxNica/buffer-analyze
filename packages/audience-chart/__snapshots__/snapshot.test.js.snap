@@ -49,7 +49,7 @@ exports[`Snapshots AudienceChart [TESTED] Should render 1`] = `
               }
             }
           >
-            Engagement & Audience
+            Engagement and audience
           </span>
         </h2>
       </header>
@@ -563,7 +563,7 @@ exports[`Snapshots AudienceChart [TESTED] should render a "no data" state 1`] = 
               }
             }
           >
-            Engagement & Audience
+            Engagement and audience
           </span>
         </h2>
       </header>
@@ -686,7 +686,7 @@ exports[`Snapshots AudienceChart [TESTED] should render a loading state 1`] = `
               }
             }
           >
-            Engagement & Audience
+            Engagement and audience
           </span>
         </h2>
       </header>
