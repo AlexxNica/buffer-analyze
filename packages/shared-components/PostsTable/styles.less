@@ -97,13 +97,13 @@
 }
 
 .contentColumn {
-  width: 60%;
+  width: 75%;
   padding-right: 1rem;
   border-right: 1px dotted @borderColor;
 }
 
 .metricColumn {
-  width: 20%;
+  width: 25%;
   padding-left: 1rem;
 }
 
@@ -170,6 +170,13 @@
   color: @outer-space;
   font-size: 13px;
   font-family: Open Sans,Helvetica,Arial,sans-serif;
+  
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: #168eea;
+  }
 }
 
 .chartLoadingContainer {
@@ -331,9 +338,11 @@
 }
 
 .viewPostLinkClass {
+  display: inline-block;
+  padding-top: 0.2rem;
   color: #168eea;
   text-decoration: none;
-  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 
   &:hover {
     text-decoration: underline;

@@ -22,7 +22,7 @@ const title = {
 
 export const Title = () =>
   <h2 style={title}>
-    <Text weight="bold" size="large">Hourly Engagements</Text>
+    <Text weight="bold" size="large">Hourly engagements</Text>
   </h2>
 ;
 

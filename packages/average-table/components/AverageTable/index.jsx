@@ -54,7 +54,7 @@ Table.propTypes = {
 
 export const Title = () =>
   <h2 style={{ margin: '0', padding: '0' }}>
-    <Text weight="bold" size="large">Average Performance</Text>
+    <Text weight="bold" size="large">Average performance</Text>
   </h2>;
 
 const AverageTable = ({ metrics, loading, timezone }) => {
