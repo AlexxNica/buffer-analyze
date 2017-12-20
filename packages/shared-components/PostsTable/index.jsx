@@ -70,19 +70,6 @@ export const Table = ({ metrics, timezone, service }) => {
 
   return (
     <aside className={chartContainer}>
-      <header>
-        <ul className={chartColumnHeader}>
-          <li className={contentColumn}>
-            <Text size="mini">Posts and Stories</Text>
-          </li>
-          <li className={metricColumn}>
-            <Text size="mini">Engagements</Text>
-          </li>
-          <li className={metricColumn}>
-            <Text size="mini">Audience</Text>
-          </li>
-        </ul>
-      </header>
       <ul className={postsContainer}>
         {topPosts.map(post =>
           <PostItem

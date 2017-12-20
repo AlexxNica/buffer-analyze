@@ -9,10 +9,10 @@
 
 .chartContainer {
   position: relative;
-  border: solid 1px @borderColor;
   border-radius: 2px;
   font-size: 12px;
   min-height: 177px;
+  border-top: dotted 1px @borderColor;
 }
 
 .chartContainerEmpty {
@@ -28,7 +28,7 @@
 .chartHeader {
   padding: @base;
   font-size: 12px;
-  border-bottom: solid 1px @borderColor;
+  border-bottom: dotted 1px @borderColor;
   justify-content: space-between;
   display: flex;
 }
@@ -62,14 +62,18 @@
   margin: 0;
   padding: 0;
   display: flex;
-  border-bottom: solid 1px @borderColor;
+  border-bottom: dotted 1px @borderColor;
 }
 
 .columnContainer {
   margin: 0;
   padding: 0;
   display: flex;
-  border-bottom: solid 1px @borderColor;
+  border-bottom: dotted 1px @borderColor;
+  
+  &:last-child {
+    border-bottom: 0 none;
+  }
 }
 
 .contentDate {
@@ -84,13 +88,7 @@
   display: inline-block;
   text-decoration: none;
   color: @outer-space;
-  padding: @base;
-  padding-left: 2*@base;
-  border-right: solid 1px @borderColor;
-
-  &:last-of-type {
-    border-right: none;
-  }
+  padding: 1.5rem 1rem 1.5rem 0;
 }
 
 .typeColumn {
@@ -99,11 +97,14 @@
 }
 
 .contentColumn {
-  width: 50%;
+  width: 60%;
+  padding-right: 1rem;
+  border-right: 1px dotted @borderColor;
 }
 
 .metricColumn {
-  width: 25%;
+  width: 20%;
+  padding-left: 1rem;
 }
 
 .metricBarLabel {
@@ -202,13 +203,13 @@
 .postContent {
   display: flex;
   align-items: flex-start;
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
 .postMeta {
   display: flex;
   justify-content: space-between;
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
 .contentLink {

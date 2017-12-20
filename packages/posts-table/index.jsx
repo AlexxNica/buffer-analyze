@@ -43,7 +43,7 @@ PostsTableWrapper.propTypes = {
 // default export = container
 export default connect(
   (state, props) => ({
-    title: 'Posts',
+    title: `${props.profileService === 'twitter' ? 'Tweet ' : 'Post '} breakdown`,
     loading: state.posts.loading,
     timezone: state.profiles.profiles.find(
       profile => profile.id === props.selectedProfileId,

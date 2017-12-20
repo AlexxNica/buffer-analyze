@@ -88,7 +88,7 @@ const PostItem = ({
         <div className={postMeta}>
           <div className={contentDate}>
             <a href={post.serviceLink} target="_blank" rel="noopener noreferrer" className={tweetServiceLinkClass}>
-              <Text size="small">{moment(post.date).tz(timezone).format(dateFormat)}</Text>
+              <Text weight="bold">{moment(post.date).tz(timezone).format(dateFormat)}</Text>
             </a>
           </div>
           <div className={contentLink}>

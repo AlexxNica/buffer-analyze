@@ -27,7 +27,7 @@ const MetricGraph = ({ metric }) => {
     <div key={key}>
       <div className={metricBarGraphContainer}>
         <span className={metricBarLabel}>
-          <Text size="small" weight="bold"><TruncatedNumber>{value}</TruncatedNumber></Text>
+          <Text weight="bold"><TruncatedNumber>{value}</TruncatedNumber></Text>
           <Text size="small"> {label.toLowerCase()}</Text>
         </span>
         <span data-tip={label} className={metricBarGraph} style={metricStyle} />
