@@ -384,7 +384,7 @@ exports[`Snapshots DatePicker should be able to open 1`] = `
           }
         }
       >
-        Past 7 Days
+        From: 08/24/17 - To: 08/30/17
       </span>
       <span
         className="sc-bwzfXH eBBRbA"
@@ -571,7 +571,7 @@ exports[`Snapshots DatePicker should be able to open 1`] = `
             className="sc-fjdhpX iXoyCj"
           >
             <li
-              className="sc-jzJRlG fzIEaG"
+              className="sc-jzJRlG loxEQY"
               data-tip={null}
               disabled={false}
             >
@@ -606,7 +606,7 @@ exports[`Snapshots DatePicker should be able to open 1`] = `
                 <span
                   style={
                     Object {
-                      "color": "#fff",
+                      "color": undefined,
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
                       "fontWeight": 400,
@@ -665,7 +665,7 @@ exports[`Snapshots DatePicker should be able to open 1`] = `
               </button>
             </li>
             <li
-              className="sc-jzJRlG loxEQY"
+              className="sc-jzJRlG fzIEaG"
               data-tip={null}
               disabled={false}
             >
@@ -700,7 +700,7 @@ exports[`Snapshots DatePicker should be able to open 1`] = `
                 <span
                   style={
                     Object {
-                      "color": undefined,
+                      "color": "#fff",
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
                       "fontWeight": 400,
@@ -6487,7 +6487,7 @@ exports[`Snapshots DatePicker should display some options as disabled 1`] = `
           }
         }
       >
-        Past 7 Days
+        From: 08/24/17 - To: 08/30/17
       </span>
       <span
         className="sc-bwzfXH eBBRbA"
@@ -6674,7 +6674,7 @@ exports[`Snapshots DatePicker should display some options as disabled 1`] = `
             className="sc-fjdhpX iXoyCj"
           >
             <li
-              className="sc-jzJRlG fzIEaG"
+              className="sc-jzJRlG loxEQY"
               data-tip={null}
               disabled={false}
             >
@@ -6709,7 +6709,7 @@ exports[`Snapshots DatePicker should display some options as disabled 1`] = `
                 <span
                   style={
                     Object {
-                      "color": "#fff",
+                      "color": undefined,
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
                       "fontWeight": 400,
@@ -6768,7 +6768,7 @@ exports[`Snapshots DatePicker should display some options as disabled 1`] = `
               </button>
             </li>
             <li
-              className="sc-jzJRlG loxEQY"
+              className="sc-jzJRlG fzIEaG"
               data-tip={null}
               disabled={false}
             >
@@ -6803,7 +6803,7 @@ exports[`Snapshots DatePicker should display some options as disabled 1`] = `
                 <span
                   style={
                     Object {
-                      "color": undefined,
+                      "color": "#fff",
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
                       "fontWeight": 400,
@@ -6851,7 +6851,7 @@ exports[`Snapshots DatePicker should have past 7 days selected 1`] = `
           }
         }
       >
-        Past 7 Days
+        From: 08/24/17 - To: 08/30/17
       </span>
       <span
         className="sc-bwzfXH eBBRbA"
@@ -7038,7 +7038,7 @@ exports[`Snapshots DatePicker should have past 7 days selected 1`] = `
             className="sc-fjdhpX iXoyCj"
           >
             <li
-              className="sc-jzJRlG fzIEaG"
+              className="sc-jzJRlG loxEQY"
               data-tip={null}
               disabled={false}
             >
@@ -7073,7 +7073,7 @@ exports[`Snapshots DatePicker should have past 7 days selected 1`] = `
                 <span
                   style={
                     Object {
-                      "color": "#fff",
+                      "color": undefined,
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
                       "fontWeight": 400,
@@ -7132,7 +7132,7 @@ exports[`Snapshots DatePicker should have past 7 days selected 1`] = `
               </button>
             </li>
             <li
-              className="sc-jzJRlG loxEQY"
+              className="sc-jzJRlG fzIEaG"
               data-tip={null}
               disabled={false}
             >
@@ -7167,7 +7167,7 @@ exports[`Snapshots DatePicker should have past 7 days selected 1`] = `
                 <span
                   style={
                     Object {
-                      "color": undefined,
+                      "color": "#fff",
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
                       "fontWeight": 400,
@@ -7215,7 +7215,7 @@ exports[`Snapshots DatePicker should not be open 1`] = `
           }
         }
       >
-        Yesterday
+        From: 08/30/17 - To: 08/30/17
       </span>
       <span
         className="sc-bwzfXH eBBRbA"
@@ -7449,53 +7449,6 @@ exports[`Snapshots DatePicker should not be open 1`] = `
               </button>
             </li>
             <li
-              className="sc-jzJRlG fzIEaG"
-              data-tip={null}
-              disabled={false}
-            >
-              <button
-                aria-label={null}
-                disabled={undefined}
-                onBlur={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "background": "none",
-                    "backgroundColor": "unset",
-                    "border": "none",
-                    "borderRadius": "unset",
-                    "color": "unset",
-                    "cursor": "pointer",
-                    "display": "unset",
-                    "fontFamily": "unset",
-                    "fontSize": "unset",
-                    "fontWeight": "unset",
-                    "lineHeight": "unset",
-                    "margin": "unset",
-                    "outline": "none",
-                    "padding": 0,
-                    "transition": "unset",
-                  }
-                }
-              >
-                <span
-                  style={
-                    Object {
-                      "color": "#fff",
-                      "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "0.75rem",
-                      "fontWeight": 400,
-                    }
-                  }
-                >
-                  Yesterday
-                </span>
-              </button>
-            </li>
-            <li
               className="sc-jzJRlG loxEQY"
               data-tip={null}
               disabled={false}
@@ -7532,6 +7485,53 @@ exports[`Snapshots DatePicker should not be open 1`] = `
                   style={
                     Object {
                       "color": undefined,
+                      "fontFamily": "\\"Roboto\\", sans-serif",
+                      "fontSize": "0.75rem",
+                      "fontWeight": 400,
+                    }
+                  }
+                >
+                  Yesterday
+                </span>
+              </button>
+            </li>
+            <li
+              className="sc-jzJRlG fzIEaG"
+              data-tip={null}
+              disabled={false}
+            >
+              <button
+                aria-label={null}
+                disabled={undefined}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "background": "none",
+                    "backgroundColor": "unset",
+                    "border": "none",
+                    "borderRadius": "unset",
+                    "color": "unset",
+                    "cursor": "pointer",
+                    "display": "unset",
+                    "fontFamily": "unset",
+                    "fontSize": "unset",
+                    "fontWeight": "unset",
+                    "lineHeight": "unset",
+                    "margin": "unset",
+                    "outline": "none",
+                    "padding": 0,
+                    "transition": "unset",
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#fff",
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
                       "fontWeight": 400,
@@ -7915,7 +7915,7 @@ exports[`Snapshots DatePicker there is no date if a single day is selected 1`] =
           }
         }
       >
-        Yesterday
+        From: 08/30/17 - To: 08/30/17
       </span>
       <span
         className="sc-bwzfXH eBBRbA"
@@ -8149,53 +8149,6 @@ exports[`Snapshots DatePicker there is no date if a single day is selected 1`] =
               </button>
             </li>
             <li
-              className="sc-jzJRlG fzIEaG"
-              data-tip={null}
-              disabled={false}
-            >
-              <button
-                aria-label={null}
-                disabled={undefined}
-                onBlur={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "background": "none",
-                    "backgroundColor": "unset",
-                    "border": "none",
-                    "borderRadius": "unset",
-                    "color": "unset",
-                    "cursor": "pointer",
-                    "display": "unset",
-                    "fontFamily": "unset",
-                    "fontSize": "unset",
-                    "fontWeight": "unset",
-                    "lineHeight": "unset",
-                    "margin": "unset",
-                    "outline": "none",
-                    "padding": 0,
-                    "transition": "unset",
-                  }
-                }
-              >
-                <span
-                  style={
-                    Object {
-                      "color": "#fff",
-                      "fontFamily": "\\"Roboto\\", sans-serif",
-                      "fontSize": "0.75rem",
-                      "fontWeight": 400,
-                    }
-                  }
-                >
-                  Yesterday
-                </span>
-              </button>
-            </li>
-            <li
               className="sc-jzJRlG loxEQY"
               data-tip={null}
               disabled={false}
@@ -8232,6 +8185,53 @@ exports[`Snapshots DatePicker there is no date if a single day is selected 1`] =
                   style={
                     Object {
                       "color": undefined,
+                      "fontFamily": "\\"Roboto\\", sans-serif",
+                      "fontSize": "0.75rem",
+                      "fontWeight": 400,
+                    }
+                  }
+                >
+                  Yesterday
+                </span>
+              </button>
+            </li>
+            <li
+              className="sc-jzJRlG fzIEaG"
+              data-tip={null}
+              disabled={false}
+            >
+              <button
+                aria-label={null}
+                disabled={undefined}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "background": "none",
+                    "backgroundColor": "unset",
+                    "border": "none",
+                    "borderRadius": "unset",
+                    "color": "unset",
+                    "cursor": "pointer",
+                    "display": "unset",
+                    "fontFamily": "unset",
+                    "fontSize": "unset",
+                    "fontWeight": "unset",
+                    "lineHeight": "unset",
+                    "margin": "unset",
+                    "outline": "none",
+                    "padding": 0,
+                    "transition": "unset",
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#fff",
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
                       "fontWeight": 400,

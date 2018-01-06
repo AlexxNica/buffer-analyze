@@ -42,7 +42,7 @@ const PRESETS = [
 
 const isRangeSelected = (range, start, end) => {
   const rangeEnd = moment().subtract(1, 'day').format('MM/DD/YYYY');
-  const rangeStart = moment().subtract(range, 'days').format('MM/DD/YYYY');
+  const rangeStart = moment().subtract(range + 1, 'days').format('MM/DD/YYYY');
 
   const rangesMatch = (
     rangeStart === moment.unix(start).format('MM/DD/YYYY') &&
