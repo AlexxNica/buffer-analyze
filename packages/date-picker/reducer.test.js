@@ -18,7 +18,7 @@ describe('reducer', () => {
 
     it('has the past seven days date range selected', () => {
       const yesterday = moment().subtract(1, 'day').format('MM/DD/YYYY');
-      const sevenDaysAgo = moment().subtract(7, 'day').format('MM/DD/YYYY');
+      const sevenDaysAgo = moment().subtract(8, 'day').format('MM/DD/YYYY');
       expect(moment.unix(state.startDate).format('MM/DD/YYYY')).toBe(sevenDaysAgo);
       expect(moment.unix(state.endDate).format('MM/DD/YYYY')).toBe(yesterday);
     });

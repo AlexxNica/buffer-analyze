@@ -15,16 +15,22 @@ export const actionTypes = {
   CLOSE_CALENDAR: 'CLOSE_CALENDAR',
 };
 
+function calculateDateRange(range) {
+  const startDate = moment().subtract(range + 1, 'days').unix();
+  const endDate = moment().subtract(1, 'days').unix();
+  return { startDate, endDate };
+}
+
 const initialState = {
   loading: true,
-  startDate: moment().subtract('7', 'days').unix(),
-  endDate: moment().subtract('1', 'days').unix(),
   open: false,
   calendarOpen: false,
   minDate: null,
   maxDate: moment().valueOf(),
   month: moment().startOf('month').unix(),
+  ...calculateDateRange(7),
 };
+
 
 export default (state = initialState, action) => {
   switch (action.type) {
@@ -127,6 +133,10 @@ export const actions = {
     type: actionTypes.SET_DATE_RANGE,
     startDate,
     endDate,
+  }),
+  setDatePreset: range => ({
+    type: actionTypes.SET_DATE_RANGE,
+    ...calculateDateRange(range),
   }),
   setMonth: date => ({
     type: actionTypes.SET_MONTH,

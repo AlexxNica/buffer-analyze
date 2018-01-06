@@ -28,10 +28,7 @@ export default connect(
     setDateRange: (start, end) => dispatch(actions.setDateRange(start, end)),
     selectPreset: (range) => {
       if (range !== Infinity) {
-        dispatch(actions.setDateRange(
-          moment().subtract(range, 'days').unix(),
-          moment().subtract(1, 'days').unix(),
-        ));
+        dispatch(actions.setDatePreset(range));
         dispatch(actions.close());
       } else {
         dispatch(actions.openCalendar());
